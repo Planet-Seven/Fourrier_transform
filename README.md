@@ -1,4 +1,4 @@
-# Overview
+# 01 Overview
 
 Welcome to the documentation for the Fourier Transformation Simulation program. This documentation provides an in-depth understanding of the program's functionality, architecture, and implementation details.
 
@@ -18,7 +18,7 @@ This documentation is divided into four main sections:
 
 4. **Learnings**: Reflects on the learning experience gained from working on this project, discussing insights into programming, design, and practical applications of Fourier transformation.
 
-# Fourier Transformation
+# 02 Fourier Transformation
 
 Fourier transformation is a mathematical technique used in signal processing and waveform analysis to decompose a complex waveform into its constituent frequencies. It is based on the concept that any periodic function can be represented as a sum of sinusoidal functions of different frequencies. Mathematically, given a function \(f(t)\) representing a waveform over time, Fourier transformation converts it into a function \(F(\omega)\) representing the same waveform in the frequency domain. 
 
@@ -32,7 +32,7 @@ In the context of this program, Fourier transformation is simplified for visuali
 
 To learn more, I recommend this 3Blude1Brown video that I also used as a reference: https://www.youtube.com/watch?v=spUNpyF58BY
 
-# Code
+# 03 Code
 
 The Processing code architecture consists of several components:
 
@@ -48,13 +48,13 @@ The Processing code architecture consists of several components:
 
 6. **Match Handling**: The `check_match()` function checks if the current frequency matches that of any individual wave and triggers appropriate actions if a match occurs, such as changing the background color and playing sound.
 
-# Arduino
+# 04 Arduino
 
 The Arduino code receives frequency data from the Processing sketch via a serial connection and displays it on a 4-digit 7-segment display. It utilizes the SevSeg library to interface with the display and `Serial` communication functions for communication with the Processing sketch. The Arduino converts the received frequency data to the appropriate format for display on the 7-segment display and updates the display accordingly.
 
 My implementation is very similar to this tutorial I watched: https://www.youtube.com/watch?v=cMRmAgdCs3w
 
-# Learnings
+# 05 Learnings
 
 Working on this project provided valuable insights into both programming and design. Through implementing Fourier transformation in an interactive visualization, I gained a deeper understanding of signal processing techniques and their practical applications. Additionally, integrating Arduino functionality into the project enhanced my skills in hardware-software interfacing and real-time communication protocols. This experience has broadened my knowledge and proficiency as both a programmer and a designer, equipping me with new tools and techniques for future projects.
 
