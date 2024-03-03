@@ -22,9 +22,9 @@ This documentation is divided into four main sections:
 
 Fourier transformation is a mathematical technique used in signal processing and waveform analysis to decompose a complex waveform into its constituent frequencies. It is based on the concept that any periodic function can be represented as a sum of sinusoidal functions of different frequencies. Mathematically, given a function \(f(t)\) representing a waveform over time, Fourier transformation converts it into a function \(F(\omega)\) representing the same waveform in the frequency domain. 
 
-The Fourier transform \(F(\omega)\) of a function \(f(t)\) is defined as:
+The Fourier transform F(ω) of a function f(t) is defined as:
 
-\[ F(\omega) = \int_{-\infty}^{\infty} f(t) \cdot e^{-i \omega t} \, dt \]
+F(ω) = ∫[−∞,+∞] f(t) * e^(-iωt) dt
 
 where \( \omega \) represents the angular frequency, \( e \) is the base of the natural logarithm, and \( i \) is the imaginary unit. This integral transforms the function from the time domain to the frequency domain, providing information about the amplitude and phase of each frequency component present in the waveform.
 
