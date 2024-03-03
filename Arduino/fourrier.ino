@@ -1,3 +1,5 @@
+//credit: https://www.youtube.com/watch?v=cMRmAgdCs3w
+
 #include "SevSeg.h"
 SevSeg sevseg;
 
