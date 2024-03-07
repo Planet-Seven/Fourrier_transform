@@ -20,7 +20,7 @@ This documentation is divided into four main sections:
 
 # 02 Fourier Transformation
 
-Fourier transformation is a mathematical technique used in signal processing and waveform analysis to decompose a complex waveform into its constituent frequencies. It is based on the concept that any periodic function can be represented as a sum of sinusoidal functions of different frequencies. Mathematically, given a function f(t) representing a waveform over time, Fourier transformation converts it into a function \(F(\omega)\) representing the same waveform in the frequency domain. 
+Fourier transformation is a mathematical technique used in signal processing and waveform analysis to decompose a complex waveform into its constituent frequencies. It is based on the concept that any periodic function can be represented as a sum of sinusoidal functions of different frequencies. Mathematically, given a function f(t) representing a waveform over time, Fourier transformation converts it into a function F(ω) representing the same waveform in the frequency domain. 
 
 The Fourier transform F(ω) of a function f(t) is defined as:
 
